@@ -1,0 +1,6 @@
+Normally, it happens because Asterisk service is not active, use this linux command to active asterisk service:
+service asterisk start
+then try again:
+asterisk -vvvr
+If something wrong went there, try to use “sudo” at the beginning.
+hope that’s help.
