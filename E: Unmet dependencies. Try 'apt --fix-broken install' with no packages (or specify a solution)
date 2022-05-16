@@ -1,0 +1,3 @@
+#just run one command:
+apt-get -f install
+now run apt upgarde
