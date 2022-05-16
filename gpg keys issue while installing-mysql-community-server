@@ -1,0 +1,4 @@
+#Run this command:
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+Now yum update
+and install your mysql package
