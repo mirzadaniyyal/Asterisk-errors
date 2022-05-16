@@ -1,0 +1,10 @@
+Sounds like a bad username and password on the server or in your config.
+CREATE USER ‘user’@’%’ DENTIFIED WITH mysql_native_password BY ‘mypass’;
+GRANT ALL ON asterisk.* TO ‘user’@’%’;
+FLUSH PRIVILEGES;
+
+test from asterisk server
+mysql -u user -h db.ip -p
+
+
+
